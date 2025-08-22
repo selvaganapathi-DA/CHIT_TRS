@@ -1,4 +1,5 @@
 {
+  "homepage": "https://selvaganapathi-da.github.io/CHIT_TRS",
   "name": "trs_chit",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist -b gh-pages -f"
   },
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.5",
