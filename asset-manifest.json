@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CHIT_TRS/static/css/main.c2799cb2.css",
-    "main.js": "/CHIT_TRS/static/js/main.689c737e.js",
+    "main.js": "/CHIT_TRS/static/js/main.32d8558d.js",
     "static/media/a12.jpg": "/CHIT_TRS/static/media/a12.eebe319944db9ffee15f.jpg",
     "static/media/a10.jpg": "/CHIT_TRS/static/media/a10.c2ef8e522e5d498b7971.jpg",
     "static/media/a2.jpg": "/CHIT_TRS/static/media/a2.e06aa98657b404fe3d37.jpg",
@@ -9,10 +9,10 @@
     "static/media/logo.png": "/CHIT_TRS/static/media/logo.bef15404c588aa7395db.png",
     "index.html": "/CHIT_TRS/index.html",
     "main.c2799cb2.css.map": "/CHIT_TRS/static/css/main.c2799cb2.css.map",
-    "main.689c737e.js.map": "/CHIT_TRS/static/js/main.689c737e.js.map"
+    "main.32d8558d.js.map": "/CHIT_TRS/static/js/main.32d8558d.js.map"
   },
   "entrypoints": [
     "static/css/main.c2799cb2.css",
-    "static/js/main.689c737e.js"
+    "static/js/main.32d8558d.js"
   ]
 }
