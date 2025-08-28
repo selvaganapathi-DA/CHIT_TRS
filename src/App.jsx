@@ -14,7 +14,7 @@ function App() {
   const [showLogo, setShowLogo] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setShowLogo(false), 2000); // Show splash logo for 4s
+    const timer = setTimeout(() => setShowLogo(false), 1000); // Show splash logo for 4s
     return () => clearTimeout(timer);
   }, []);
 
