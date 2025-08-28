@@ -1,0 +1,65 @@
+.chit-card {
+  background: #0b1e3f;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.chit-card.expanded {
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.chit-title {
+  font-weight: bold;
+  font-size: 1.9rem;
+  color: #ffd700;
+}
+
+/* ✅ Make total amount stand out */
+.chit-amount {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffd700; /* green */
+}
+
+/* ✅ Call-to-action text */
+.chit-text {
+  font-size: 0.9rem;
+  color: #ffd700; /* bootstrap primary blue */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.chit-text strong {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+}
+
+.chit-text:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Table tweaks */
+.table {
+  font-size: 0.9rem;
+}
+
+.table-success.fw-bold td {
+  color: red; /* darker green for total row */
+}
+
+@media (max-width: 576px) {
+  .chit-card-body {
+    padding: 1rem !important;
+  }
+  .table {
+    font-size: 0.8rem;
+  }
+}
