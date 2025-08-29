@@ -65,7 +65,6 @@ const chitPlans = [
     rows: [
       { month: 1, user: "₹20,000", nonUser: "₹20,000", chit: "₹4,80,000" },
       { month: 2, user: "₹21,000", nonUser: "₹19,950", chit: "₹4,80,000" },
- { month: 2, user: "₹21,000", nonUser: "₹19,950", chit: "₹4,80,000" },
       { month: 3, user: "₹22,000", nonUser: "₹19,850", chit: "₹4,80,000" },
       { month: 4, user: "₹23,000", nonUser: "₹19,600", chit: "₹4,80,000" },
       { month: 5, user: "₹24,000", nonUser: "₹19,250", chit: "₹4,80,000" },
